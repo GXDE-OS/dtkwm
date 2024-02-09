@@ -1,0 +1,27 @@
+Source: dtkwm
+Section: libdevel
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends: debhelper (>= 9), pkg-config,
+ libqt5x11extras5-dev, libxext-dev, qtbase5-private-dev,
+ x11proto-xext-dev, libxcb-util0-dev, libdtkcore-dev,
+ libmtdev-dev, libegl1-mesa-dev, libfontconfig1-dev,
+ libfreetype6-dev, libglib2.0-dev, libxrender-dev,
+ libudev-dev
+Standards-Version: 3.9.8
+
+Package: libdtkwm2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
+
+Package: libdtkwm-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdtkwm2( =${binary:Version}),
+ libqt5x11extras5-dev, libdtkcore-dev
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
