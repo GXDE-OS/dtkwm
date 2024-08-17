@@ -1,3 +1,10 @@
+dtkwm (15.11~2.0.11.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * 
+
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 17 Aug 2024 22:35:22 +0800
+
 dtkwm (15.11~2.0.11.1-1+comsta) unstable; urgency=low
 
   * ['Autobuild release-candidate: eda57f37477bfe697e5a90ad6262a019bf33753f']

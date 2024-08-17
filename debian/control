@@ -21,7 +21,7 @@ Description: Deepin graphical user interface library
 Package: libdtkwm-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libdtkwm2( =${binary:Version}),
- libqt5x11extras5-dev, libdtkcore-dev
+ libqt5x11extras5-dev, libdtkcore2-dev
 Description: Deepin graphical user interface library
  DtkWm is used to handle double screen for deepin desktop development.
  This package contains the shared libraries.
